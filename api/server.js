@@ -12,8 +12,8 @@ server.use('/api/dogs', dogsRouter); // delegate requests to /api/dogs to the ro
 
 server.get('/', (req, res) => {
   res.send(`
-    <h2>Lambda Shelter API</h>
-    <p>Welcome to the Lambda Shelter API</p>
+    <h2>Shelter API</h>
+    <p>Welcome to the Shelter API</p>
   `);
 });
 
