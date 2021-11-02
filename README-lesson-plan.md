@@ -10,7 +10,7 @@ In this project we will learn how to create a very simple Web API using `Node.js
 
 ## Starter Code
 
-The [Starter Code](https://github.com/LambdaSchool/webapi-ii-guided) for this project is configured to run the server by typing `npm run server`. The server will restart automatically on changes.
+The [Starter Code](https://github.com/LambdaSchool/node-api2-guided) for this project is configured to run the server by typing `npm run server`. The server will restart automatically on changes.
 
 Data for the API will be stored in a database and will persist across server restarts.
 
