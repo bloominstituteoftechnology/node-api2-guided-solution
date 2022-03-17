@@ -14,4 +14,12 @@ In this project we will learn how to create a very simple Web API using `Node.js
 - [ ] **CD into the folder** where you cloned the repo.
 - [ ] type `npm i` to download dependencies.
 
-Please follow along as the instructor builds the API step by step.
+Please follow along as the instructor builds the API step by step:
+
+| Not using REST                               | Using REST                                       |
+| -------------------------------------------- | ------------------------------------------------ |
+| POST `http://localhost:9000/listAllAdopters` | GET    `http://localhost:9000/adopters`          |
+| POST `http://localhost:9000/createAdopter`   | POST   `http://localhost:9000/adopters`          |
+| POST `http://localhost:9000/updateAdopter`   | PUT    `http://localhost:9000/adopters/:id`      |
+| POST `http://localhost:9000/deleteAdopter`   | DELETE `http://localhost:9000/adopters/:id`      |
+| POST `http://localhost:9000/listAdopterDogs` | GET    `http://localhost:9000/adopters/:id/dogs` |
