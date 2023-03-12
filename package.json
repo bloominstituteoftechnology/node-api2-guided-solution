@@ -11,7 +11,7 @@
     "url": "git+https://github.com/BloomInstituteOfTechnology/node-api2-guided-solution.git"
   },
   "devDependencies": {
-    "eslint": "^8.35.0",
+    "eslint": "^8.36.0",
     "nodemon": "^2.0.21"
   },
   "dependencies": {
